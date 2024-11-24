@@ -67,3 +67,25 @@
 
 ## Huffman Coding 
 1. used to compress the data
+
+## MST
+1. prims
+2. krushkal
+
+## Dijkstra 
+
+## Bellman Ford
+
+## N Queen
+
+## Matrix Multiplication
+
+## Longest Common Subsequence
+
+## Naive String Matching Algo
+
+## Rabin Karp Algo
+
+## Knuth Morris Pratt Algo
+
+## Sorting Network
