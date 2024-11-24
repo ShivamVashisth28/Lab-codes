@@ -18,13 +18,13 @@ void bubbleSort(int nums[], int n){
 
 void insertionSort (int nums[], int n) {
     for(int i=0; i<n; i++){
-        int j = i;
-        while(j > 0 && nums[j-1] > nums[j]){
-            int temp = nums[j-1];
-            nums[j-1] = nums[j];
-            nums[j] = temp;
+        int j = i-1;
+        int key = nums[i];
+        while(j >= 0 && nums[j] > key){
+            nums[j+1] = nums[j];
             j--;
         }
+        nums[j+1] = key;
     }
 }
 
@@ -70,7 +70,6 @@ void bucketSort(float nums[], int n){
 
     // concatenate all the buckets together
     int index = 0;
-
     for(int i=0; i<n; i++){
         for(int j=0; j < b[i].size(); j++){
             nums[index++] = b[i][j];
@@ -79,14 +78,13 @@ void bucketSort(float nums[], int n){
 }
 
 
-
-
 void print(int nums[], int n ){
     for( int i=0 ; i<n ; i++ ){
         cout << nums[i] << " " ;
     }
     cout << endl;
 }
+
 int main () {
 
     int n = 10;
