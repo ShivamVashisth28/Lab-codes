@@ -36,10 +36,10 @@
     - pivotEle = arr[low]
     - i = low, j = right
     - while(i < j){
-            if(i <= high-1 && num[i] <= pivotEle ) i++
-            if(j >= low+1 && num[j] > pivotEle ) j--
-            if(i < j) swap(num[i], num[j]);
-        }
+    - if(i <= high-1 && num[i] <= pivotEle ) i++
+    -        if(j >= low+1 && num[j] > pivotEle ) j--
+    -        if(i < j) swap(num[i], num[j]);
+    -    }
     - swap(arr[j] , arr[low])
     - return j
     
