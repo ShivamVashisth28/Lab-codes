@@ -63,3 +63,7 @@
     - divide the space by two
     - h = m -1
     - l = m +1
+
+
+## Huffman Coding 
+1. used to compress the data
