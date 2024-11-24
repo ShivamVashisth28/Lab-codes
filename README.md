@@ -54,3 +54,12 @@
 2. heapsort
     - for i :n/2-1 to i>=0, heapify with i
     - for i :n-1 to i>0, swap(i,0) and heapify(nums,i,0);
+
+
+## Linear and Binary Search
+1. Linear Search 
+    - simple traversal of the array
+2. Binary Search
+    - divide the space by two
+    - h = m -1
+    - l = m +1
