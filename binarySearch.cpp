@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+// time complexity : log(n) (worst case)
+
 int binarySearch(int nums[], int n, int key){
     int l = 0;
     int h = n-1;
