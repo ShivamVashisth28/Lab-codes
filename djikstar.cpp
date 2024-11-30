@@ -2,6 +2,9 @@
 using namespace std;
 #include <limits.h>
 
+// djikstar algo is used for the single source shortest path calculation
+
+
 #define V 9
 
 int minDistance(int dist[], bool sptSet[]) {
