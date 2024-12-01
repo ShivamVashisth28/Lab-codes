@@ -3,6 +3,8 @@
 #include <vector>
 using namespace std;
 
+
+// string search algorithm 
 void constructLps(string &pat, vector<int> &lps) {
     int len = 0;
     lps[0] = 0;
