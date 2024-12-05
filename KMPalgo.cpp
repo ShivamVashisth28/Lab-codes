@@ -4,7 +4,7 @@
 using namespace std;
 
 
-// string search algorithm 
+// algo code
 void constructLps(string &pat, vector<int> &lps) {
     int len = 0;
     lps[0] = 0;
