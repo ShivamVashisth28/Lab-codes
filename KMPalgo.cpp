@@ -54,6 +54,8 @@ vector<int> search(string &pat, string &txt) {
 int main() {
     string txt = "aabaacaadaabaaba";
     string pat = "aaba";
+
+    // search for the straing pattern in the string txt
     vector<int> res = search(pat, txt);
     for (int i = 0; i < res.size(); i++)
         cout << res[i] << " ";
