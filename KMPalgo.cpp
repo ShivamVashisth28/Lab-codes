@@ -4,7 +4,7 @@
 using namespace std;
 
 
-// algo code
+// algo code jkhjn
 void constructLps(string &pat, vector<int> &lps) {
     int len = 0;
     lps[0] = 0;
